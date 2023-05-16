@@ -2,7 +2,7 @@ import { buddhaCover } from "../../src/assets/index";
 
 const LandingSection = ({ setVow, setOpenSecion }) => {
   return (
-    <div style={{ height: "100vh", background: "#ececec" }}>
+    <div style={{ height: "100vh", background: "#ececec" }} id="landing">
       <div className="coverImageContainer">
         <img src={buddhaCover} className="coverImage" alt="landing"/>
         <div className="headingWrapper">

@@ -4,7 +4,7 @@ const Navbar = ({ navClass, setNavClass, setVow, setOpenSecion }) => {
       <ul>
         <li>
           <a
-            href="#"
+            href="#landing"
             onClick={() => {
               setNavClass("navbarDec");
             }}
